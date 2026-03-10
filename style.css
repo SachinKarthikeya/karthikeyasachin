@@ -355,8 +355,11 @@ section{
     color: var(--bg-color);
 }
 .project-card img{
-    width: 20vw;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
     border-radius: 1rem;
+    object-fit: cover;
 }
 .project-card:hover .btn{
     border: 2px solid var(--bg-color);
